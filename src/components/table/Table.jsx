@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import TableRow from "./TableRow";
 import { Table } from "antd"
 import { dataFormated } from "./utils/index"
 import { ModalDelete } from "./components/modalDelete/index"
