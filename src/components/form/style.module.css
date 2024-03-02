@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap : 0.5rem
+}
+
+.containerForm{
+    padding: 0 7rem;
+}
+
+.input{
+    width: 30%;
+}
+
+.error{
+    color: #ff0000;
+    margin-top: 4px;
+}

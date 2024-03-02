@@ -1,0 +1,9 @@
+.containerTitle{
+    display: flex;
+    gap: 1rem;
+}
+
+.icon{
+    color : #fec441;
+    font-size: 2rem;
+}
