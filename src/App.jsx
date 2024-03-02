@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import FormData from './components/form/Form';
 import TableData from './components/table/Table';
-import {help} from './helpers/help';
 import style from "./style.module.css"
 
 
@@ -13,14 +12,6 @@ function App() {
   const [ idData, setIdData ] = useState()
 
 
-  let api = help();
-  let url = "http://localhost:3001/home";
-
-  useEffect(() => {
-    api.get(url).then((res) => {
-      console.log(res);
-    });
-  }, []);
 
   const createData = (data, form) => {
     console.log("create data", data);
